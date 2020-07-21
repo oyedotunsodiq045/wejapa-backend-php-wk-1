@@ -69,10 +69,13 @@
 </div> 
 
 <?php
-if (isset($_POST['submit'])) {
+if (isset($_POST['submit']) && !empty($_POST['name']) && !empty($_POST['code'])) {
     echo '<br>Hello '.$_POST['name'];
     echo '<br><br>Hope we can work together,  '.$_POST['code'];
     echo '<br><br> My stack comprises of Html, CSS, and a touch of JS';
+} else{
+    echo "name and codename cannot be empty";
+
 }
 ?>
 
