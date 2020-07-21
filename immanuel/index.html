@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hello</title>
+    <style>
+        #form-div {
+            display: flex;
+            text-align: left;
+            justify-content: center;
+            align-content: center;
+        }
+
+        input[id^='name'] {
+            width: 300px;
+            height: 30px;
+            border-color: #304c68;
+            border-radius: 4em;
+            padding: 0 1em;
+        }
+
+        input[id^='name']:focus,
+        input[class^='btn']:focus {
+            outline: none;
+        }
+
+        label {
+            text-transform: uppercase;
+        }
+
+        input[class^='btn'] {
+            width: 100px;
+            height: 30px;
+            color: #fff;
+            background-color: #304c68;
+            border: none;
+            border-radius: 4em;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+
+        form * {
+            margin: 0.5em;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div id="form-div">
+        <form action="send.php" method="POST">
+            <h1>Lets get to know you?</h1>
+            <p>Please Enter you Name </p>
+
+            <label for="name">Name:</label>
+            <input type="text" name="name" id="name" placeholder="Enter you name">
+
+            <label for="codename">Codename:</label>
+            <input type="text" name="code" id="name" placeholder="Enter you codename">
+            <input type="submit" value="Submit name" name="submit" class="btn">
+
+        </form>
+
+    </div>
+
+</body>
+
+</html>
