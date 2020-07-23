@@ -1,0 +1,24 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  body {
+   background-color: rgba(200, 255, 255, 0.452);
+  }
+  
+.container{
+ margin: 60px 20px 20px 20px ;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-direction: column;
+ 
+}
+.name{
+    padding: 5px 20px 5px 0;
+}
+.submit{
+    margin: 20px 0 20px 0;
+    
+}
