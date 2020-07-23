@@ -1,0 +1,17 @@
+div{
+    text-align: center;
+    background-color: lightblue;
+}
+form{
+    margin: auto;
+    background-color: goldenrod;
+    width: 80%;
+   
+}
+input.box{
+    width: 50%;
+    height: 20px;
+}
+h2{
+    text-align: center;
+}
