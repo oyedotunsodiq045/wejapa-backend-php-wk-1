@@ -1,0 +1,96 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+}
+
+header {
+    padding: 2em 0 1em 2em;
+    widows: 80%;
+    background-color: whitesmoke;
+    border-bottom: 2px solid #1dac00e3;
+}
+
+header>h1 {
+    color: orange;
+    font-family: 'Roboto Mono', monospace;
+}
+
+img {
+    width: 50px;
+    height: 50px;
+}
+
+form {
+    width: 50%;
+    margin: 0 5em;
+    padding: 2em;
+}
+
+label,
+input,
+select {
+    display: block;
+    font-family: 'Roboto Mono', monospace;
+}
+
+label {
+    color: green;
+    padding-bottom: 0.5em;
+    font-size: 1.2em;
+    font-weight: 700;
+}
+
+input,
+select {
+    padding: 0.8em;
+    margin-bottom: 1.8em;
+    font-size: 0.9em;
+    width: 90%;
+    border: 0.5px solid orange;
+    border-radius: 4px;
+    font-style: italic;
+    font-weight: 100;
+
+}
+
+.submit_bt {
+    width: max-content;
+    color: green;
+    display: inline;
+    margin-right: 5em;
+    font-weight: bold;
+}
+
+.report {
+    margin: 2em;
+}
+
+h3 {
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 900;
+}
+
+p {
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 400;
+    padding-top: 1em;
+    line-height: 2em;
+}
+
+footer {
+    border-top: 2px solid green;
+    text-align: center;
+}
+
+span {
+    width: 100%;
+    margin: 0 auto;
+    font-weight: bold;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 1.2em;
+}
