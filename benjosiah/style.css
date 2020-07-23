@@ -1,0 +1,57 @@
+body{
+    background-color: rgb(190, 205, 218);
+}
+.form{
+    width: 40%;
+    min-width: 522px;
+    min-height: 500px;
+    background-color: rgb(72, 20, 121);
+    margin: auto;
+    margin-top: 50px;
+    text-align: center;
+
+}
+form{
+    margin: 20px;;
+}
+.error{
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+    color: red;
+}
+.form div{
+    text-align: center;
+    padding: 10px
+}
+.form .error{
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+    color: red;
+}
+input{
+    width: 300px;
+    height:20px ;
+    border-bottom-color: bisque;
+    border-radius: 7px;
+    background-color: rgb(156, 193, 218);
+}
+label h3{
+    color: rgb(156, 145, 131);
+    margin:0px;
+    padding-top: 20px;
+}
+
+.display{
+    width: 70%;
+    background-color: blanchedalmond;
+    margin: auto;
+    margin-top: 20px;
+    height: 200px;
+    margin-bottom: 20px;
+    overflow: scroll;
+    overflow-x: hidden;
+    overflow-wrap: break-word;
+
+}
