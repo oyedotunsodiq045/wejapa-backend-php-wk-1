@@ -1,0 +1,26 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    text-align: center;
+    margin: 50px auto;
+    box-shadow: 3px 3px 2px 5px #342233;
+}
+.congrats-wrapper {
+    max-width: 500px;
+    margin: 100px auto;
+    text-align: center;
+}
+
+input {
+    margin: 10px auto;
+    padding: 10px;
+}
+input[type=submit] {
+    width: 200px;
+    margin-bottom: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: large;
+    color: #ffffff;
+    background-color: rgb(34, 115, 236);
+}
