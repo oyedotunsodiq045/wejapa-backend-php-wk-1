@@ -1,0 +1,42 @@
+body {
+    background-color:blueviolet;
+    
+}
+form{
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-bottom: 100px;
+}
+
+h2{
+    font-size: 30px;
+}
+
+label{
+    font-size: 20px;
+}
+
+input{
+    font-size: 20px;
+    border-radius: 10px 10px 10px;
+    border: red;
+    padding: 10px;
+}
+select{
+    font-size: 20px;
+    border-radius: 10px 10px 10px; 
+    border: red;
+    padding: 10px;
+}
+button{
+    font-size: 20px;
+    border-radius: 10px 10px 10px; 
+    background :green;
+    padding: 10px;
+}
+input [type=radio]{
+    font-size: 20px;
+    
+    
+}
+
