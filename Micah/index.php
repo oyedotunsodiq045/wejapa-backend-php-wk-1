@@ -3,7 +3,7 @@
      $lname = $_POST["lastname"];
      $email = $_POST["email"];
     $submit = $_POST["submit"];
-
+//to check if the form is submitted
     if (isset($_POST['submit']) ) {
       
 ?>
