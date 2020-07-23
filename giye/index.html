@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- Written by Amadi Onengiye Williams-- Twitter: @Yo_Giye-- Slack: @Giye -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title> wejapa_backend_php </title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <h1><img src="images\wejapa_logo.png" alt="wejapa_logo">eJapa</h1>
+    </header>
+
+    <div>
+        <form action="form_report.php" method="POST">
+            <div>
+                <label for="surname_tb">Surname</label>
+                <input type="text" name="surname" id="surname_tb" placeholder="Input your surname" required >
+
+                <label for="firstName_tb">Firstname</label>
+                <input type="text" name="firstName" id="firstName_tb" required placeholder="Input your firstname">
+
+                <label for="email_tb">Email</label>
+                <input type="email" id="email_tb" name="email" required placeholder="example@giye.com">
+
+                <label for="slackUserName_tb">Slack Username</label>
+                <input type="text" name="slackUserName" id="slackUserName_tb" required placeholder="@Giye">
+
+                <label for="track_dd">Select your track</label>
+                <select name="track" id="track_dd">
+                    <option value="Frontend">Frontend</option>
+                    <option value="Backend">Backend</option>
+                </select>
+
+               
+                <select name="level" id="level_dd">
+                    <option value="null" selected>Select your level</option>
+                    <option value="Beginner">Beginner</option>
+                    <option value="Junior">Junior</option>
+                    <option value="Senior">Senior</option>
+                    <option value="Mentor">Mentor</option>
+                </select>
+
+                <div hidden>
+                    <label for="track_dd">Select your specialization</label>
+                    <input type="checkbox" id="backend_php" name="backend_php" value="PHP">
+                    <label for="backend_php">PHP</label><br>
+                </div>
+
+                <input type="submit" class="submit_bt" value="Submit my data">
+                <input type="submit" class="submit_bt" value="Reset">
+            </div>
+        </form>
+
+    </div>
+<footer>
+    <span>-@Giye-- WeJapa-</span>
+</footer>
+
+</body>
+
+</html>
