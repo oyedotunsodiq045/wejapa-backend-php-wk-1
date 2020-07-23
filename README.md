@@ -73,7 +73,7 @@ Run: `git commit -m "add: <slackUsername> form"`
 
 For example, it would be
     
-git push origin peter-parker - (Notice how it ends with the branch you created earlier - Step 8).
+`git push origin peter-parker` - (Notice how it ends with the branch you created earlier - Step 8).
 
 ## Creating Pull requests
 
