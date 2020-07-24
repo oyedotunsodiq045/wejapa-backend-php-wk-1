@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Welcome</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar navbar-light bg-light">
+        <span class="navbar-brand mb-0 h1">Task 1</span>
+    </nav>
+
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-md-8 offset-md-2">
+                <form method="POST" action="processor.php">
+                    <div class="form-group">
+                        <input type="text" name="name" class="form-control" placeholder="Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" name="email" class="form-control" placeholder="Email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" name="school" class="form-control" placeholder="University attended">
+                    </div>
+                    <div class="form-group">
+                        <select name="qualification" class="form-control">
+                            <option value="BSc">BSc</option>
+                            <option value="BEng">BEng</option>
+                            <option value="BTech">BTech</option>
+                        </select>
+                    </div>
+                    <button class="btn btn-lg btn-primary btn-block" type="submit">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
