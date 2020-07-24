@@ -13,7 +13,6 @@
         }else{
             $email=$_POST['email'];
         }
-       
         
     }
 
@@ -37,7 +36,7 @@
             </div>
             <label for="email"><h3>Email</h3></label>
             <div>
-                <input type="email" name="email" id="email" value="<?php echo $email??""?>">
+                <input type="text" name="email" id="email" value="<?php echo $email??""?>">
                 <div class="error"><?php echo $errors['email']??"" ?></div>
             </div>
             <div>
