@@ -15,7 +15,7 @@
         $track = $_POST["track"]
     ?>
         <div class="response">
-            <p>Welcome to the WeJapa Internship <?php echo $first_name . " " . $last_name; ?> </p>
+            <p>Welcome to the WeJapa Internship <span><?php echo $first_name . " " . $last_name; ?></span> </p>
             <p class="track">Your track is <?php echo $track ?></p>
         </div>
 

@@ -119,6 +119,10 @@ body {
   margin: .5rem 0;
 }
 
+.response p span {
+  font-weight: bolder;
+}
+
 .response p.track {
   text-transform: uppercase;
   color: #e5fd0d;
