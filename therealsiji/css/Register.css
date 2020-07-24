@@ -1,0 +1,33 @@
+.mainBody{
+  /* background-image: url(../img/black.JPG); */
+  max-width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.formContainer{
+    display: block;
+    top: 0;
+    margin: auto;
+    width: 500px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    /* opacity: 0.5; */
+}
+label{
+    font-size: 20px;
+    font-weight: bold;
+}
+input{
+  margin: auto;
+}
+.submit{
+  display: block;
+  margin: auto;
+}
+select{
+  padding-left: 20px;
+}
+.mygender{
+  padding-left:40px;
+}
