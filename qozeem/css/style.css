@@ -1,0 +1,21 @@
+body {
+    padding: 20px;
+    margin: 20px;
+    font-size: 20px;
+}
+
+.half {
+    display: inline;
+}
+
+form {
+    float: left;
+    margin-right: 200px;
+    background-color: #ff0000;
+}
+
+div {
+    display: inline-block;
+    margin-left: 10px;
+    background-color: #409274;
+}
