@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Grenze+Gotisch:wght@300;400;500;600;700;800;900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#app .heading, #app form label{
+    font-family: 'Grenze Gotisch', cursive;
+}
+#app h2{
+    font-size: 40px;
+}
+#app form label{
+    font-size: 20px;
+    font-weight: 700;
+}
+#app form{
+    padding: 20px;
+    background: rgb(255, 249, 249);
+    box-shadow: 1px 1px 5px rgb(105, 103, 103);
+    border-radius: 10px;
+    margin: 20px 5px;
+}
+#app form input{
+    padding: 10px !important;
+}
