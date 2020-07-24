@@ -1,0 +1,52 @@
+<html>
+    <title>Wejapa Internship </title>
+    <style>
+        p{
+            font-size:x-large;
+            color:green;
+        }
+        h1{
+            color: rgb(41, 51, 189);
+        }
+        body {
+            align-content: center;
+            padding: 50px;
+            text-align: center;
+            margin-left: inherit;
+        }
+        .page {
+            border: 1px solid #665544;
+            background-color: #efefef;
+            padding: 20px;
+        }
+        input[type=text]{
+              width: 100%;
+                padding: 12px 20px;
+                margin: 8px 0;
+                display: inline-block;
+                border: 1px solid #ccc;
+                border-radius: 4px;
+                box-sizing: border-box;
+
+        } 
+        input[type=submit] {
+            background-color: #45a049; 
+            padding: 14px 20px;
+            width: 100%; 
+        }
+                </style>
+    <body>
+        <h1>WeJapa Internship First Task</h1>
+        <div class='page'>
+        <form action="Welcome.php" method="post">
+                <p>First Name</p><input type="text" name="fname" required><br>
+                <p>Last Name</p><input type="text" name="lname" required><br>
+                <p>E-mail</p><input type="text" name="email" required><br>
+                <input type="hidden" name="form_submitted" value="1" />
+                <input type="submit" value='Submit'>
+        </form>
+        </div>
+
+    </body>
+</html>
+
