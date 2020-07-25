@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+
+    <link href="bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-md-8 offset-md-2">
+                <form method="POST" action="theform.php">
+                <div class="form-group">
+                    <input type="text" name="firstName" class="form-control" placeholder="First Name" required>
+                </div> 
+
+                <div class="form-group">
+                    <input type="text" name="lastName" class="form-control" placeholder="Last Name" required>
+                </div> 
+                
+                <div class="form-group">
+                    <input type="email" name="eMail" class="form-control" placeholder="eMail" required>
+                </div> 
+                
+                <div class="form-group">
+                    <input type="tel" name="mobile" class="form-control" placeholder="Mobile No" required>
+                </div> 
+                
+                <div class="form-group">
+                    <input type="date" name="dateOfBirth" class="form-control" placeholder="Date Of Birth" required>
+                </div> 
+
+                <div class="form-group">
+                    <input type="text" name="location" class="form-control" placeholder="location" required>
+                </div> 
+                
+                <div class="form-group">
+                    <textarea class="form-control" placeholder="Bio" name="bio"></textarea>
+                </div> 
+
+                <button class="btn btn-lg btn-primary btn-block" type="submit">Submit</button>
+                
+                
+                </form>
+            </div>
+        </div>
+    </div>
+
+    
+</body>
+</html>
