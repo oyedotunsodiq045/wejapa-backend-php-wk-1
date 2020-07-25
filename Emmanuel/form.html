@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <title>A Basic Form - Developed by Emmanuel | WeJapa</title>
+    <link rel="stylesheet"
+          type="text/css"
+          href="myFormStyle.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="form">
+        <div class="body">
+          <h2 style="text-align: center">Build your profile</h2>
+          <form action="formResponse.php"
+                method="POST">
+            <h4><strong>Personal Details</strong></h4>
+            <div class="entries">
+              <label>Full Name</label><br>
+                <input type="text" 
+                       name="firstName"
+                       placeholder="First name" required>
+                <input type="text" 
+                       name="lastName"
+                       placeholder="Last name" required>
+            </div>
+            <div class="entries">
+              <label>Address</label><br>
+                <input type="text"
+                       name="address" 
+                       placeholder="Enter your home address" required>
+            </div>
+            <div class="selection">
+              <label>State</label><br>
+                <select id = "State"
+                        name="state" required>
+                  <option value="">None</option>
+                  <option value="Abuja">Abuja</option>
+                  <option value="Abia State">Abia</option>
+                  <option value="Adamawa">Adamawa</option>
+                  <option value="Akwa-Ibom State">Akwa Ibom</option>
+                  <option value="Anambra State">Anambra</option>
+                  <option value="Bauchi State">Bauchi</option>
+                  <option value="Bayelsa State">Bayelsa</option>
+                  <option value="Benue State">Benue</option>
+                  <option value="Borno State">Borno</option>
+                  <option value="Cross-River State">Cross River</option>
+                  <option value="Delta State">Delta</option>
+                  <option value="Ebonyi State">Ebonyi</option>
+                  <option value="Edo State">Edo</option>
+                  <option value="Ekiti State">Ekiti</option>
+                  <option value="Enugu State">Enugu</option>
+                  <option value="Gombe State">Gombe</option>
+                  <option value="Imo State">Imo</option>
+                  <option value="Jigawa State">Jigawa</option>
+                  <option value="Kaduna State">Kaduna</option>
+                  <option value="Kano State">Kano</option>
+                  <option value="Kastina State">Kastina</option>
+                  <option value="Kebbi State">Kebbi</option>
+                  <option value="Kogi State">Kogi</option>
+                  <option value="Kwara State">Kwara</option>
+                  <option value="Lagos State">Lagos</option>
+                  <option value="Nasarawa State">Nasarawa</option>
+                  <option value="Niger State">Niger</option>
+                  <option value="Ogun State">Ogun</option>
+                  <option value="Ondo State">Ondo</option>
+                  <option value="Osun State">Osun</option>
+                  <option value="Oyo State">Oyo</option>
+                  <option value="Plateau State">Plateau</option>
+                  <option value="Rivers State">Rivers</option>
+                  <option value="Sokoto State">Sokoto</option>
+                  <option value="Taraba State">Taraba</option>
+                  <option value="Yobe State">Yobe</option>
+                  <option value="Zamfara State">Zamfara</option>
+                </select>
+            </div>
+            <div class="entries">
+              <label>Phone</label><br>
+                <input type="tel"
+                       name="phone" 
+                       placeholder="Phone number" required>
+            </div> 
+            <div class="entries">
+              <label>Email</label><br>
+                <input type="email"
+                       id = "Email"
+                       name="email"
+                       placeholder="Enter your email address" required>
+            </div>
+            <div class="selection">
+              <label>Date of Birth</label><br>
+                <input type = "date"
+                       id = "date"
+                       name="date_of_birth" required>
+            </div>
+  
+            <div class="entries">
+              <label>WeJapa Stack</label><br>
+                <select id = "Stack"
+                        name="stack" required>
+                  <option value = "">Select your stack</option>
+                  <option value = "Backend PHP">Backend PHP</option>
+                  <option value = "Backend Go">Backend Go</option>
+                  <option value = "Backend Node">Backend Node</option>
+                  <option value = "Frontend Vue">Frontend Vue</option>
+                  <option value = "Frontend REACT">Frontend REACT</option>
+                  <option value = "Product Design">Product Design</option>
+                  <option value = "Data Science">Data Science</option>
+                </select>
+            </div>
+            <div class="entries">
+              <label>Stack Level</label><br>
+                <select id = "stackLevel"
+                        name="level" required>
+                  <option value = "">Select your stack level</option>
+                  <option value = "Beginner">Beginner</option>
+                  <option value = "Junior">Junior</option>
+                  <option value = "Senior">Senior</option>
+                </select>
+            </div>
+            <div class="selection">
+              <label>What is your highest level of Education?</label><br>
+                <select id = "selEducation"
+                        name="education" required>
+                  <option value = "">Select your highest level of education</option>
+                  <option value = "University">University</option>
+                  <option value = "High School">High School</option>
+                  <option value = "Primary School">Primary School</option>
+                  <option value = "Others">Others</option>
+                </select>
+            </div>
+            <div class="selection">
+              <label>Select your favourite colour</label><br>
+                <input type = "color"
+                       id = "color"
+                       name="Favorite_color" required>
+            </div>
+            <div class="entries">
+              <label>Short Bio</label><br>
+                <textarea id = "Bio"
+                          rows = "3"
+                          cols = "30"
+                          name="Bio"
+                          placeholder="I am awesome and I know it!"></textarea>
+            </div>
+            <div class="submit">
+              <button type = "submit">Submit</button>
+            </div>
+          </form>
+        </div>
+        </div>
+    </div>
+  </body>
+</html>
