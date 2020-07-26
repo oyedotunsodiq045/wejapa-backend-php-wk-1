@@ -6,10 +6,9 @@ if(isset($_POST['submit'])){
     $email = $_POST['email'];
     $number = $_POST['number'];
 
-    echo $first;echo "<br>";
-    echo $last;echo "<br>";
-    echo $email;echo "<br>";
-    echo $number;echo "<br>";
+    echo 'hello '; echo $first; echo ' ';echo $last; echo '<br>';
+    echo 'Your email is '; echo $email; echo '<br>';
+    echo '  and your Mobile number is '; echo $number;
 }
    
 ?>
