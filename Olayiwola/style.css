@@ -1,0 +1,249 @@
+/* .......... Global style ......... */
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Caveat', cursive;
+    font-weight: 700;
+    color: #610d30;
+    margin-bottom: 5px;
+}
+
+.form {
+    border: 350px solid white ;
+    border-radius: 11px;
+    border-top: 0;
+    border-bottom: 30px;
+    background-color: #eee6de; 
+    padding: 20px;
+}
+
+
+/* .......... Input fields and select options style ......... */
+.top-form input, select {
+    width: 75%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    float: right;
+}
+
+.top-form label {
+    float: left;
+    width: 20%;
+    padding: 15px 5px;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+
+/* .......... Track checkbox style......... */
+
+/* The container  */
+.container {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 9px;
+    margin-top: 5px;
+    cursor: pointer;
+    font-size: 17px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+  
+/* Hide the browser's default checkbox */
+.container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+  
+/* Create a custom checkbox */
+.checkmark {
+    position: absolute;
+    padding: 4px;
+    padding-left: 4px;
+    padding-right: 9px;
+    margin-top: 2px;
+    top: 0;
+    left: 10px;
+    height: 14px;
+    width: 14px;
+    border-radius: 3px;
+    background-color:white;
+}
+  
+/* On mouse-over, add a grey background color */
+    .container:hover input ~ .checkmark {
+    background-color: #ccc;
+}
+  
+/* When the checkbox is checked, change background color */
+    .container input:checked ~ .checkmark {
+    background-color: rgb(128, 78, 31);
+}
+  
+/* Create the checkmark/indicator (hidden when not checked) */
+    .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+  
+/* Show the checkmark when checked */
+    input:checked ~ .checkmark:after {
+    display: block;
+}
+  
+/* Style the checkmark/indicator */
+    .checkmark:after {
+    left: 6px;
+    top: 1px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.tracks {
+    padding-left: 250px;
+    padding-right: 238px;
+}
+
+.tracks h3 {
+    font-weight: 600;
+    padding-left: 6px;
+    margin-bottom: 10px;
+}
+
+
+/* .......... Gender radiobox style......... */
+
+/* The container 2 */
+.container-2 {
+    display: block;
+    position: relative;
+    padding-left: 33px;
+    margin-bottom: 12px;
+    margin-top: 0;
+    cursor: pointer;
+    font-size: 17px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+  
+/* Hide the browser's default radio button */
+    .container-2 input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+  
+/* Create a custom radio button */
+    .checkmark-2 {
+    position: absolute;
+    top: 0;
+    left: 6px;
+    margin-top: 3px;
+    height: 14px;
+    width: 14px;
+    background-color: white;
+    border-radius: 50%;
+}
+  
+/* On mouse-over, add a grey background color */
+    .container-2:hover input ~ .checkmark-2 {
+    background-color: #ccc;
+}
+  
+/* When the radio button is checked, add a blue background */
+    .container-2 input:checked ~ .checkmark-2 {
+    background-color: rgb(128, 78, 31);
+}
+  
+/* Show the indicator (dot/circle) when checked */
+    .container-2 input:checked ~ .checkmark-2:after {
+    display: block;
+}
+  
+/* Style the indicator (dot/circle) */
+    .container-2 .checkmark-2:after {
+    top: 9px;
+    left: 9px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: white;
+}
+
+.gender {
+    padding-left: 255px;
+    padding-right: 265px;
+}
+
+.gender h3 {
+    font-weight: 580;
+    padding-left: 6px;
+    margin-bottom: 10px;
+}
+
+
+/* ..........bio-data box style ......... */
+.bio-data {
+    float: left;
+    font-size: 20px;
+    margin-bottom: 130px;
+}
+
+#bio-data {
+    float: right;
+    width: 75%;
+    margin-top: 2px;
+    padding-bottom: 22px;
+    margin-bottom: 222px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+
+/* .......... submission box style ......... */  
+#bio-data + input{
+    background-color: rgb(128, 78, 31);
+    display: block;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+    font-size: 16px;
+    margin-left: 485px;
+}
+  
+#bio-data + input:hover {
+    background-color: #a16b07;
+}
+
+#bio-data + input:after {
+    content: "";
+    display: table;
+    clear: both;
+}
