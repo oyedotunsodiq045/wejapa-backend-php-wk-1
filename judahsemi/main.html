@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Register</title>
+  <link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body>
+  <div class="main__box box">
+    <form action="main.php" method="post">
+      
+      <!-- Name Field -->
+      <div class="input__box box">
+        <label>Name</label>
+        <input class="text-input input" type="text" name="name" placeholder="John Doe" size="50" required />
+      </div> <!-- End of Name Field -->
+
+      <!-- Email Field -->
+      <div class="input__box box">
+        <label>Email</label>
+        <input class="text-input input" type="email" name="email" placeholder="you@yourdomain.com" size="50" required />
+      </div> <!-- End of Email Field -->
+
+      <!-- Track Field -->
+       <div class="input__box box">
+        <label>Track</label>
+        <select class="select-input input" name="track" required>
+          <option value="Backend (PHP)">Backend (PHP)</option>
+          <option value="Backend (Node)">Backend (Node)</option>
+          <option value="Frontend (React)">Frontend (React)</option>
+          <option value="Frontend (Vue)">Frontend (Vue)</option>
+          <option value="Data Science (Python)">Data Science (Python)</option>
+          <option value="Product Design (Figma)">Product Design (Figma)</option>
+        </select>
+      </div> <!-- End of Track Field -->
+
+      <!-- Expertise Field -->
+      <div class="input__box box">
+        <label>Expertise</label>
+        <input class="radio-input" type="radio" name="expertise" value="Beginner" required /><span class="radio-text">Beginner</span>
+        <input class="radio-input" type="radio" name="expertise" value="Junior" required /><span class="radio-text">Junior</span>
+        <input class="radio-input" type="radio" name="expertise" value="Expert" required /><span class="radio-text">Expert</span>
+      </div> <!-- End of Expertise Field -->
+
+      <!-- Slack Id Field -->
+      <div class="input__box box">
+        <label>Slack Id</label>
+        <input class="text-input input" type="text" name="slack-id" placeholder="@john" size="50" required />
+      </div> <!-- End of Slack Id Field -->
+
+      <!-- Position Field -->
+      <div class="input__box box">
+        <label>Position</label>
+        <input class="radio-input" type="radio" name="position" value="Intern" required /><span class="radio-text">Intern</span>
+        <input class="radio-input" type="radio" name="position" value="Mentor" required /><span class="radio-text">Mentor</span>
+        <input class="radio-input" type="radio" name="position" value="Admin" required /><span class="radio-text">Admin</span>
+      </div> <!-- End of Position Field -->
+
+      <!-- Submit Button -->
+      <div align="right">
+        <button class="button box" type="submit">Register</button>
+      </div> <!-- End of Submit Button -->
+    </form>
+  </div>
+</body>
+</html>
