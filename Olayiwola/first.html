@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-us">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Olayiwola's form</title>
+        <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Montserrat&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+    </head>
+        <body>
+            <h1>Please enter your information below:</h1>
+
+            <div class="form">
+                <form action="index.php" method="POST">
+                    <div class="top-form">
+                        <label for="firstname">First Name</label>
+                        <input type="text" name="firstname" id="firstname" placeholder="Your name">
+
+                        <label for="lastname">Last Name</label>
+                        <input type="text" name="lastname" id="lastname" placeholder="Your surname">
+    
+                        <label for="email">Email</label>
+                        <input type="email" name="email" id="email" placeholder="me@example.com" required>
+    
+                        <label for="phone">Phone Number</label>
+                        <input type="tel" name="phone" id="phone" >
+    
+                        <label for="selectlist">Education Level</label>
+                        <select name="selectlist" id="selectlist">
+                            <option value="graduate">Graduate</option>
+                            <option value="undergraduate">Undergraduate</option>
+                        </select>
+                    </div>
+    
+                    <div class="tracks"> 
+                        <h3>Select Track</h3>
+                        <label class="container">BackEnd
+                            <input type="checkbox" checked="checked">
+                            <span class="checkmark"></span>
+                        </label>
+                          
+                        <label class="container">FrontEnd 
+                            <input type="checkbox">
+                            <span class="checkmark"></span>
+                        </label>
+                          
+                        <label class="container">Designer  
+                            <input type="checkbox">
+                            <span class="checkmark"></span>
+                        </label>
+                    </div>
+
+                    <div class="gender">
+                        <h3>Gender</h3>
+                        <label class="container-2">Male
+                          <input type="radio" checked="checked" name="radio">
+                          <span class="checkmark-2"></span>
+                        </label>
+                        <label class="container-2">Female
+                          <input type="radio" name="radio">
+                          <span class="checkmark-2"></span>
+                        </label>
+                        <label class="container-2">Other
+                          <input type="radio" name="radio">
+                          <span class="checkmark-2"></span>
+                        </label>
+                    </div>
+    
+                    <label class="bio-data" for="bio-data">Bio data</label>
+                    <textarea name="bio-data" id="bio-data" cols="50" rows="8" placeholder="write here..."></textarea>
+    
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
+        </body>
+</html>
